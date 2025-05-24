@@ -4,7 +4,6 @@ const sqlite3 = require('sqlite3').verbose();
 const fs = require('fs');
 const path = require('path');
 
-// Configurações
 const API_KEYS = {
   etherscan: process.env.ETHERSCAN_API_KEY,
   polygonscan: process.env.POLYGONSCAN_API_KEY,
